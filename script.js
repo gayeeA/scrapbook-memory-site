@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+  
   /* ==========================================================================
      1. PAGE NAVIGATION ENGINE
      ========================================================================== */
@@ -297,7 +298,17 @@ updateTrack(0, false);
     }
   }
   
+const cover = document.getElementById("bookCover");
 
+cover.addEventListener("click", () => {
+  // unwrap ribbon
+  cover.classList.add("open");
+
+  // after animation → remove cover
+  setTimeout(() => {
+    cover.classList.add("hide");
+  }, 1000);
+});
   /* ==========================================================================
      INIT
      ========================================================================== */
