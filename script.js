@@ -122,7 +122,7 @@ const tracks = [
   {
     name: "Gaaju Bomma 🌸",
     img: "./pictures/coverpage/hiNanna.png",
-    audio: "./mp3/Gaaju_Bomba.mp3"
+    audio: "./mp3/Gaaju_Bomma.mp3"
   }
 ];
 
